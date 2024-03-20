@@ -1,0 +1,92 @@
+body{
+      /* background-color: linear-  #6cc9ec ;
+       */
+       background: linear-gradient(#6cc9ec 70%,#5da4ef);
+       color: white;
+
+}
+
+header{
+      position: relative;
+      padding: 15px;
+      margin: 15px;
+      /* border-bottom: 6px dotted white;  */
+      border-bottom: 10px dotted #ffffff;
+}
+header h1{
+      font-size: 3rem;
+      color: white;
+      text-shadow:  0 0 1rem blue,
+                   0 0 0.5rem rgb(3, 3, 139);
+      position: absolute;
+      bottom: 5px;
+      right: 0px;
+      display: inline;
+      margin-bottom: 0px;
+}
+nav a{
+      font-weight: bold;
+      color: white;
+      padding: 15px;
+      margin: 10px;
+      font-size: 2rem;
+      text-decoration: none;
+      
+}
+section{
+      display: flex;
+      font-size: 1.5rem;
+     
+}
+section .left{
+      width: 50vw;
+      margin: 10px;
+}
+
+section .width-25{
+      font-size: 1.2rem;
+      width: 25%;
+}
+section .width-75{
+      width: 75%;
+}
+section select{
+      padding: 10px;
+      border-radius: 20px;
+      border: 2px solid #007bff;
+}
+section input,textarea{
+      width: 90%;
+      padding: 8px;
+      border-radius: 20px;
+      border: 2px solid #007bff;
+}
+section .sub_re{
+      width:20%;
+      border: 2px dashed  #007bff;
+      background-color: #dddddd;
+}
+section .right{
+      width: 50vw;
+      margin: 10px;
+}
+.right h2{
+      padding-left: 3rem;
+      font-size: 3rem;
+      color: blue;
+      text-shadow:  2px 5px 0 rgb(77, 77, 232);
+      margin-bottom: 0px;
+}
+.right h3{
+      padding-left: 4.5rem;
+      font-size: 2rem;
+      color: blue;
+      margin-top: 5px;
+}
+footer{
+      font-weight: bold;
+      padding-top: 20px;
+      font-size: 1.5rem;
+      border-top: 10px dotted #ffffff;
+      text-align: center;
+}
