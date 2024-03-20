@@ -1,0 +1,61 @@
+body{
+      background-image: url(../pic/background.jpg);
+      color: white;
+}
+main{
+      display: flex;
+}
+aside{
+      width: 15vw;
+      display: block;
+      margin: 10px;
+}
+aside .link{
+      background-color: white;
+      border: 5px outset #efebde;
+
+}
+aside a{
+      display: block;
+      text-decoration: none;
+      margin-bottom: 10px;
+
+}
+section{
+      width: 85vw;
+      /* margin: 10px; */
+      padding: 10px;
+      border: 2px solid #009a00;
+}
+section h1{
+      font-size: 2rem;
+      margin-top: 0px;
+      font-style: italic;
+      background-color: #009a00;
+      text-align: center;
+      letter-spacing: 10px;
+}
+section .phanTren{
+      overflow: auto;
+}
+section .phanTren p{
+      padding-bottom: 10px;
+      font-size: 1rem;
+}
+section .phanTren img{
+      float: right;
+     margin-left: 10px;
+}
+section h3{
+      background-color: #009a00;
+}
+footer{
+      margin-top: 5px;
+      border-top:5px double #009a00;
+      text-align: center;
+}
+footer span{
+      color: white;
+}
+
+

@@ -1,0 +1,123 @@
+header{
+      size: 30px;
+      color: #a52a2a;
+      text-align: center;
+      text-shadow: 12px 10px 0px rgba(206,89,55,0.41);       
+}
+nav{
+      background-color: #eb9696;
+      text-align: center;
+      padding:5px;
+      margin-bottom: 5px;
+}
+nav img{
+      width: 20px;
+      height: 20px;
+      margin-left: auto;
+      margin-right: auto;
+
+}
+nav a{
+      color: white;
+      text-decoration: none;
+      margin: auto;
+      padding: 15px;
+}
+nav input#search{
+      margin-left: 20px;
+
+}
+
+main{
+      display: flex;
+      justify-content: stretch;
+}
+
+.left{
+      width: 20%;
+      background-color: white;
+}
+.left a{
+      text-decoration: none;
+      color: white;
+      padding: 5px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      border: 1px solid black;
+      background-color: #eb9696;
+      border-radius: 20px;
+
+}
+.left img{
+      width: 90%;
+      /* height: 100%; */
+      border-radius: 50%;
+      box-shadow: 7px 10px 5px -1px #eb9696;
+}
+section{
+      width: 60%;
+      background-color: white;
+}
+section h2{
+      text-align: center;
+      letter-spacing: 10px;
+      color:  #a52a2a;
+      background-color:  #eb9696;
+      margin-left: 50px;
+      margin-right: 50px;
+}
+section a{
+      padding-left:10px ;
+}
+section span{
+      color: red;
+}
+section input.row1, input.row2{
+      width: 40%;
+      padding: 10px;
+      margin: 10px 15px;
+}
+section select.row3{    
+      width: 45%;
+      padding: 10px;
+      margin: 15px;
+}
+section input.row4{
+      width: 90%;
+      padding: 10px;
+      margin: 15px;
+}
+.right{
+      width: 20%;
+      background-color: black;
+      padding-left: 5px;
+      color: white;
+     
+}
+.right img{
+      width: 90%;
+      margin-left: 5px;
+}
+
+.right .tieuDe1{
+      font-size: 20px;
+      position: relative;
+      top: 0px;
+      left: 0px;
+}
+.right .tieuDe2{
+      margin-top: 1rem;
+      margin-left: 5px;
+}
+.right .shortText{
+      margin-left: 5px;
+      font-size: 0.6rem;
+}
+footer{
+      margin:10px 0px ;
+      color: white;
+      text-align: center;
+      background-color:  #eb9696;
+      font-size: 1.5rem;
+}
