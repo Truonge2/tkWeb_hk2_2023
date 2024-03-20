@@ -1,0 +1,53 @@
+header{
+      border-bottom: 3px solid #ffb733;
+      text-align: end;
+      
+}
+main{
+      display: flex;
+      font-size: 1.5rem;
+}
+aside{
+      width: 15vw;
+      background-image: url(../pic/back.jpg);
+      background-size: contain;
+      padding-right: 20px;
+}
+aside a{
+      display: block;
+      text-decoration: none;
+      border-bottom: 2px dashed #d5945b;
+      padding: 8px;
+}
+section{
+
+      width: 85vw;
+      margin: 10px;
+
+      color: #a32526;
+}
+section h1{
+      font-size: 3rem;
+      color: #ffb733;
+}
+section .phanGiua{
+      overflow: auto;
+}
+section .spanPhanGiua{
+      float: right;
+      border: 10px outset #ffb733;
+      background-color: #fffff0;
+      margin-top: 40px ;
+}
+.spanPhanGiua h2{
+      color:  #ffb733;
+}
+footer{
+      text-align: center;
+      border-top: 3px solid #ffb733;
+      padding: 10px;
+  
+      color: #ffb733;
+
+
+}

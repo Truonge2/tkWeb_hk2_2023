@@ -1,0 +1,121 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+.wrapper{
+ 
+      width: 960px;
+      border: 1px solid black;
+      margin: auto;
+}
+header{
+      display: flex;
+      background-color: #294e79;
+      color: white;
+      margin-bottom: 10px;
+}
+hr{
+      border-bottom:5px dotted black ;
+      margin:10px 0px;
+}
+.hLeft {
+      display: flex;
+}
+/* .rightImg{
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+} */
+.hRight_top{
+      display: block;
+      text-align: end;
+      margin: 10px 0px;
+}
+.hRight_top input{
+      padding: 5px;
+      margin: 0px 5px;
+      background-color: #1c3451;
+      color: white;
+}
+.hRight_bottom{
+      width: 100%;
+      text-align: center;
+      padding: 5px;
+      margin: 5px;
+}
+.hRight_bottom a{
+      font-size: 1.2rem;
+      padding: 5px;
+      margin: 5px;
+      display: inline;
+      text-decoration: none;
+      background-color: #3d73b1;
+}
+.container{
+      display: flex;
+}
+.cLeft{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding-right:10px;
+      margin-right:10px;
+}
+.cLeft article{
+      display: flex;
+      margin: 10px;
+}
+.cLeft article  .artLeft p{
+      color: #f61763;
+      text-shadow: 3px 3px 3px green;
+}
+.cLeft article table {
+      
+      border-spacing: 10px;
+}
+.cLeft article table input,textarea{
+      width: 100%;
+      padding: 3px 0px;
+}
+.artRight, .artLeft{
+      margin-right:10px;
+}
+.artRight h1,p{
+      margin: 10px 0px;
+}
+.container aside{
+      width: 40%;
+      margin-top: 30px;
+      background-color: beige;
+      padding: 10px;
+}
+.container aside p{
+      text-align: justify;
+}
+.container aside img{
+      width: auto; 
+      height: 130px;
+     padding: 5px;
+      border: 2px solid black;
+
+}
+.container aside .box1{
+      background-image: url(../pic/rose.png);
+      padding: 5px;
+      border: 2px solid black;
+      background-size:contain ;
+      background-repeat: no-repeat;
+      height: 100px;
+}
+.container aside a{
+      display: block;
+      text-align: right;
+}
+footer{
+      background-color: #294e79;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 10px;
+}
